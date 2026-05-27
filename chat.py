@@ -9,7 +9,7 @@ from tema import TEMAS, FONTES, obter_tema, criar_btn, criar_btn_tema
 
 # CONFIGURAÇÃO  –  coloque sua chave aqui
 
-API_KEY = "coloque sua chave aqui"  # obtenha em https://openrouter.ai/dashboard    
+API_KEY = "Digite sua chave API"  # obtenha em https://openrouter.ai/dashboard    
 
 # BANCO DE DADOS EM MEMÓRIA
 
@@ -76,7 +76,7 @@ def obter_mensagens(cid: str) -> list:
 class App(tk.Tk):
     def __init__(self):
         super().__init__()
-        self.title("ChatBot IA")
+        self.title("Chat IA")
         self.geometry("960x660")
         self.minsize(760, 520)
         self.resizable(True, True)
@@ -109,7 +109,7 @@ class App(tk.Tk):
         frame = tk.Frame(self, bg=t["bg"])
         frame.place(relx=0.5, rely=0.5, anchor="center")
 
-        tk.Label(frame, text="🤖 ChatBot IA", font=("Segoe UI", 26, "bold"),
+        tk.Label(frame, text="🤖 Chat IA", font=("Segoe UI", 26, "bold"),
                  bg=t["bg"], fg=t["accent"]).pack(pady=(0, 24))
 
         # Campos
