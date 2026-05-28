@@ -29,13 +29,13 @@ Antes de começar, você precisa ter instalado:
 **1. Clone o repositório**
 
 ```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone https://github.com/cassiohmonteiro/Chat_IA.git
 ```
 
 **2. Acesse a pasta do projeto**
 
 ```bash
-cd seu-repositorio
+cd Chat_IA
 ```
 
 **3. Instale as dependências**
@@ -65,7 +65,7 @@ python chat_ia.py
 ## 📁 Estrutura do projeto
 
 ```
-📁 seu-repositorio/
+📁 Chat_IA/
 ├── chat_ia.py   # Código principal — lógica e interface
 └── tema.py      # Estilização — cores, fontes e widgets
 ```
